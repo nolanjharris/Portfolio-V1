@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Righteous');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+body {
+	overflow: hidden;
+}
+
+.container {
+	height: 100vh;
+	margin: 0 auto;
+}
+
+#fixed {
+	background-image: url("bluegreencircuits.png");
+	background-color: #fcfcfc;
+	background-position: 25% 75%;
+	height: 100vh;
+	width: 15vw;
+	float: left;
+	position: fixed;
+	border-right: 2px solid #2fffff;
+	/*background-size: 100%;*/
+}
+
+#name {
+	height: 30%;
+	width: 100%;
+	float: left;
+	padding-top: 43vh;
+	font-family: 'Orbitron', cursive;
+	font-size: 24px;
+	/*font-weight: bold;*/
+	line-height: 1em;
+	color: #044b80;
+	text-align: center;
+}
+
+#menu {
+	height: 100vh;
+	width: 2.5vw;
+	/*float: left;*/
+	display: inline-block;
+	position: fixed;
+	left: 15vw;
+	border-right: 2px solid #2fffff;
+	text-align: center;
+	background-color: #044b80;
+	background-position: 100% 100%;
+	padding-top: 48vh;
+}
+
+#menutoggler {
+	display: none;
+	width: 2.5vw;
+	color: #2fffff;
+	text-align: center;
+
+}
+
+
+#sliderdiv {
+	float: right;
+	width: 82.5vw;
+	height: 100vh;
+	background-image: url('background2.png');
+	background-color: #fcfcfc;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: bottom 7% right 0;
+	position: relative;
+}
+
+#sliderdiv div {
+	width: 100%;
+	font-family: 'Orbitron', cursive;
+	color: #044b80;
+	position: relative;
+	background-color: transparent;
+	/*white-space: nowrap;*/
+}
+
+#about {
+	height: 33.3vh;
+	font-size: 65px;
+	line-height: 33.3vh;
+	font-weight: bold;
+	position: relative;
+	border-bottom: 1px solid #2fffff;
+}
+
+#aboutdiv {
+	border-bottom: 1px solid #2fffff;
+}
+
+#about p {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	padding-left: 1vw;
+	display: true;
+}
+
+#contactinfo1 {
+	height: 100%;
+	display: none;
+	font-size: 20px;
+	line-height: 10vh;
+	background-color: transparent;
+}
+
+#portfolioinfo1 {
+	height: 100%;
+	display: none;
+	font-size: 20px;
+	line-height: 10vh;
+}
+
+#about img {
+	max-width:100%;
+	max-height:100%;
+	/*border-radius: 50%;*/
+	position: absolute;
+	right: 0;
+	top: 0;
+	
+}
+
+#portfolio {
+	height: 33.3vh;
+	font-size: 65px;
+	line-height: 33.3vh;
+	font-weight: bold;
+	position: relative;
+	border-bottom: 1px solid #2fffff;
+}
+
+#portfolio p {
+	width: 100%;
+	position: relative;
+	text-align: right;
+	padding-right: 1vw;
+	display: true;
+	background-color: #fcfcfc;
+}
+
+#contactinfo2 {
+	height: 100%;
+	display: none;
+	font-size: 20px;
+	line-height: 10vh;
+}
+
+#portfolio img {
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#aboutinfo1{
+	height: 100%;
+	display: none;
+	font-size: 20px;
+	line-height: 10vh;
+}
+
+#contact {
+	height: 33.3vh;
+	font-size: 65px;
+	line-height: 33.3vh;
+	font-weight: bold;
+	position: relative;
+	background-color: #fcfcfc;
+}
+
+#contact p {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	padding-left: 1vw;
+	/*border-top: 2px solid #2fffff;*/
+}
+
+#contact img {
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	
+}
+
+#aboutinfo2 {
+	height: 100%;
+	display: none;
+	font-size: 20px;
+	line-height: 10vh;
+	overflow: visible;
+	width: 100%;
+	/*position: relative;*/
+}
+
+#portfolioinfo2 {
+	height: 100%;
+	display: none;
+	font-size: 20px;
+	line-height: 10vh;
+	/*position: relative;*/
+}
